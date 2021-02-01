@@ -1,0 +1,20 @@
+{
+  "name": "react-graph",
+  "version": "1.0.0",
+  "description": "React Node/Next GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "next": "^10.0.5",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
