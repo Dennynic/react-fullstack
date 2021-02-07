@@ -1,5 +1,3 @@
-import HeroComponent from "@/components/shared/hero";
-
 const Home = () => (
   <>
     <a href="" className="btn btn-main bg-blue ttu">
@@ -114,13 +112,6 @@ const Home = () => (
       </div>
     </div>
     {/* REPLIER ENDS */}
-    {/* FOOTER STARTS */}
-    <footer id="sticky-footer" className="py-4 bg-black text-white-50 py-3">
-      <div className="container text-center">
-        <small>Copyright &copy; Your Website</small>
-      </div>
-    </footer>
-    {/* FOOTER ENDS */}
   </>
 );
 
