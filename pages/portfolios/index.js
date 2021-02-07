@@ -1,13 +1,18 @@
 import React from "react";
 
 class Portfolios extends React.Component {
+  static getInitialProps() {
+    return { testingData: "Some testing Data 111" };
+  }
+
   render() {
+    const { testingData } = this.props;
     return (
       <>
         <section className="section-title">
           <div className="px-2">
             <div className="pt-5 pb-4">
-              <h1>Portfolios</h1>
+              <h1>Portfolios {testingData}</h1>
             </div>
           </div>
         </section>
