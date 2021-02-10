@@ -4,14 +4,18 @@
   "description": "React Node/Next GraphQL",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "nodemon --watch server server/index.js",
     "build": "next build",
     "start": "next start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
     "next": "^10.0.5",
     "node-sass": "^5.0.0",
     "react": "^17.0.1",
